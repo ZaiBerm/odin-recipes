@@ -5,19 +5,53 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
         <title>Odin Recipes</title>
         <link rel="Stylesheet" href="styles.css">
     </head>
     <body>
-        <h1 class = "pagename">Odin Recipes</h1>
-        <h2 class = "topic title">Filipino Cuisine</h2>
-          <p class = "intro">Filipino cuisine is a rich and diverse blend of flavors, influenced by the country's history, geography, and cultural diversity. The Philippines, an archipelago of over 7,000 islands in Southeast Asia, has a culinary tradition that reflects a fusion of indigenous, Spanish, Chinese, American, and Malay influences. Here are some key elements and characteristics of Filipino cuisine:</p>
-        <img src = ./recipe_images/indeximg.jpeg class = "introimage">
-        <h2>Filipino Recipes</h2>
-        <ul>
-            <li><a href = "./recipes/adobo.html" target = "_blank" rel = "noopener noreferrer"><h2>ADOBO</h2></a></li>
-            <li><a href = "./recipes/sinigang.html" target = "_blank" rel = "noopener noreferrer"><h2>SINIGANG</h2></a></li>
-            <li><a href = "./recipes/turon.html" target = "_blank" rel = "noopener noreferrer"><h2>TURON</h2></a></li>
-        </ul>
+        <div class = "inner-div">
+            <h1 class = "pagename">Odin Recipes</h1>
+            <h2 class = "topic title">Filipino Cuisine</h2>
+            <p class = "intro">Filipino cuisine is a rich and diverse blend of flavors, influenced by the country's history, geography, and cultural diversity. The Philippines, an archipelago of over 7,000 islands in Southeast Asia, has a culinary tradition that reflects a fusion of indigenous, Spanish, Chinese, American, and Malay influences. Here are some key elements and characteristics of Filipino cuisine:</p>
+            <img src = "recipe_images/hotel1.webp" class = "introimage">
+            <h2 class = "some-filipino-dishes">Some Filipino Dishes</h2>
+            <div class = "dishes">
+
+                <a href = "recipes/adobo.html" rel="noopener noreferrer" target = "_blank">
+                    <div class = "dish">
+                        <img src = "recipe_images/adobo.jpeg" class = "dish-img">
+                        <div class = "dish-info">
+                            <p class = "dish-name">ADOBO</p>
+                            <p class = "dish-description">Adobo is a popular Filipino dish known for its savory and slightly tangy flavor profile. It is a cooking method that involves marinating meat, usually chicken or pork, in a mixture of vinegar, soy sauce, garlic, and various spices, and then simmering it until tender. Adobo is considered the unofficial national dish of the Philippines and holds a special place in Filipino cuisine.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href = "recipes/sinigang.html" rel="noopener noreferrer" target = "_blank">
+                    <div class = "dish">
+                        <img src = "recipe_images/sinigang.jpg" class = "dish-img">
+                        <div class = "dish-info">
+                            <p class = "dish-name">SINIGANG</p>
+                            <p class = "dish-description">Sinigang is a popular and savory Filipino soup known for its distinct sour flavor. It is a comforting and hearty dish that features a tamarind-based broth, although other souring agents such as guava, green mango, or calamansi may also be used. Sinigang is often prepared with a variety of meats, such as pork, beef, shrimp, or fish, and it typically includes an assortment of vegetables.</p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href = "recipes/turon.html" rel="noopener noreferrer" target = "_blank">
+                    <div class = "dish">
+                        <img src = "recipe_images/turon.jpeg" class = "dish-img">
+                        <div class = "dish-info">
+                            <p class = "dish-name">TURON</p>
+                            <p class = "dish-description">Turon, also known as banana lumpia or banana spring rolls, is a popular Filipino snack or dessert. It is made by wrapping slices of ripe banana and sometimes with a slice of jackfruit in a spring roll wrapper, then frying the roll until it becomes golden and crispy. Turon is often sweetened with caramelized sugar, giving it a delightful combination of crunchy texture and sweet flavor.</p>
+                        </div>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+        
     </body>
 </html>
